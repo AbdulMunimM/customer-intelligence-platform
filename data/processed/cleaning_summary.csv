@@ -1,0 +1,6 @@
+Step,Reason,Rows Remaining,Rows Removed in Step
+Original Dataset,Initial dataset loaded from Excel.,779425,0
+Removed Missing Customer IDs,Customer segmentation requires identifiable customers.,779425,0
+Removed Non-Positive Prices,"Removed free, invalid, and accounting adjustment transactions.",779425,0
+Removed Non-Positive Quantities,"Removed returns, cancellations, and inventory adjustments.",779425,0
+Removed Duplicate Rows,Removed duplicate transaction records.,779425,0

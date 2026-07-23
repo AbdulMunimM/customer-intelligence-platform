@@ -1,0 +1,59 @@
+
+Customer Segmentation using K-Means Clustering
+==============================================
+
+Dataset
+-------
+Online Retail Dataset
+
+Total Customers:
+5878
+
+Total Clusters:
+4
+
+Cluster Sizes
+-------------
+Cluster
+0    1973
+1    1250
+2    1196
+3    1459
+
+Cluster Summary
+---------------
+         Recency  Frequency  Monetary
+Cluster                              
+0         394.95       1.38    317.08
+1          28.30       3.05    857.49
+2          27.71      19.28  10731.16
+3         230.07       5.06   1948.50
+
+Best K:
+4
+
+Evaluation Metrics
+------------------
+ K        WCSS  Silhouette Score
+ 2 8588.985343          0.438602
+ 3 6354.343153          0.347745
+ 4 4921.233345          0.364971
+ 5 4099.106079          0.342496
+ 6 3554.696269          0.334796
+ 7 3194.500972          0.306636
+ 8 2902.433885          0.303315
+ 9 2656.562328          0.292524
+10 2467.378466          0.290525
+
+Project Pipeline
+----------------
+1. Data Loading
+2. Data Cleaning
+3. Feature Engineering (RFM)
+4. Exploratory Data Analysis
+5. Log Transformation
+6. Standard Scaling
+7. Elbow Method
+8. Silhouette Score
+9. K-Means Clustering
+10. PCA Visualization
